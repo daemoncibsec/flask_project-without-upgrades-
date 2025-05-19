@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Buscar XXXS{% endblock %}
+{% block content %}
+<div class="form-section">
+    <h2 class="text-medium">Buscar vulnerabilidad OWASP</h2>
+    <form action="{{ url_for('listaxxxs') }}" method="POST" class="search-form">
+        <input type="text" name="nombre_xxx" class="form-input" placeholder="Ej: Injection, SSRF...">
+        <button type="submit" class="btn">Buscar</button>
+    </form>
+</div>
+{% endblock %}

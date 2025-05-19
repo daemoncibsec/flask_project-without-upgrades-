@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Resultados de búsqueda{% endblock %}
+{% block content %}
+<canvas id="c"></canvas>
+
+<div class="form-section">
+    <h2 class="text-medium">Resultados de la búsqueda</h2>
+    {% if resultados %}
+        <table class="transparent-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Impacto</th>
+                    <th>Detalle</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in resultados %}
+                <tr>
+                    <td>{{ item.nombre }}</td>
+                    <td>{{ item.impacto }}</td>
+                    <td><a href="{{ url_for('detalle', identificador=item.id) }}">Detalle</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No se encontraron resultados.</p>
+    {% endif %}
+    <a href="{{ url_for('xxxs') }}" class="btn">Volver</a>
+</div>
+{% endblock %}

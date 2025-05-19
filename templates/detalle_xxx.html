@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Daemon - {{ item.nombre }}{% endblock %}
+{% block content %}
+    <div class="form-section">
+        <h2 class="text-medium">{{ item.id }} - {{ item.nombre }}</h2>
+        <h3><strong>Impacto:</strong> {{ item.impacto }}</h3>
+        <h3><strong>Descripción:</strong> {{ item.descripcion }}</h3>
+        <a href="{{ url_for('xxxs') }}" class="btn" id="button">Volver</a>
+    </div>
+{% endblock %}

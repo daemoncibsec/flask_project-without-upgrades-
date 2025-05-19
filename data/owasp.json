@@ -1,0 +1,63 @@
+[
+  {
+    "id": "A01:2021",
+    "nombre": "Broken Access Control",
+    "descripcion": "Restricciones mal implementadas que permiten a usuarios no autorizados acceder a recursos o funciones.",
+    "impacto": "Crítico"
+  },
+  {
+    "id": "A02:2021",
+    "nombre": "Cryptographic Failures",
+    "descripcion": "Fallas relacionadas con la protección de datos sensibles, como el uso incorrecto de criptografía o falta de cifrado.",
+    "impacto": "Alto"
+  },
+  {
+    "id": "A03:2021",
+    "nombre": "Injection",
+    "descripcion": "Código malicioso inyectado en una aplicación, como SQL, NoSQL, OS y LDAP injection.",
+    "impacto": "Crítico"
+  },
+  {
+    "id": "A04:2021",
+    "nombre": "Insecure Design",
+    "descripcion": "Fallas en el diseño que permiten vulnerabilidades, como falta de validaciones o controles de seguridad.",
+    "impacto": "Medio-Alto"
+  },
+  {
+    "id": "A05:2021",
+    "nombre": "Security Misconfiguration",
+    "descripcion": "Configuraciones incorrectas o inseguras en servidores, bases de datos o software de la aplicación.",
+    "impacto": "Alto"
+  },
+  {
+    "id": "A06:2021",
+    "nombre": "Vulnerable and Outdated Components",
+    "descripcion": "Uso de bibliotecas, frameworks o componentes con vulnerabilidades conocidas.",
+    "impacto": "Alto"
+  },
+  {
+    "id": "A07:2021",
+    "nombre": "Identification and Authentication Failures",
+    "descripcion": "Problemas con la autenticación de usuarios, como contraseñas débiles o sesiones inseguras.",
+    "impacto": "Alto"
+  },
+  {
+    "id": "A08:2021",
+    "nombre": "Software and Data Integrity Failures",
+    "descripcion": "Fallas al verificar la integridad del software o los datos, incluyendo CI/CD y actualizaciones sin validación.",
+    "impacto": "Crítico"
+  },
+  {
+    "id": "A09:2021",
+    "nombre": "Security Logging and Monitoring Failures",
+    "descripcion": "Deficiencias en el registro y monitoreo de seguridad que dificultan detectar y responder a incidentes.",
+    "impacto": "Medio"
+  },
+  {
+    "id": "A10:2021",
+    "nombre": "Server-Side Request Forgery (SSRF)",
+    "descripcion": "Manipulación de solicitudes realizadas por el servidor a recursos internos o externos.",
+    "impacto": "Alto"
+  }
+]
+

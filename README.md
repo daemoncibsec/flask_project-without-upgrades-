@@ -26,4 +26,4 @@ python3 project.py
 
 ## Preview / Demostración
 
-[Demonstration](demonstration.png)
+![Demonstration](demonstration.png)
